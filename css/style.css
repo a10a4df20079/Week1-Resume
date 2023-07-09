@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    margin: 0 auto;
+}
+.nameCard h1{
+    padding: 160px 0 0 312px;
+    font-size: 128px;
+    line-height: 192px;
+}
+.nameCard img{
+    display: block;
+    margin: 0 auto;
+}
+.nameCard h2{
+    font-size: 128px;
+    line-height: 192px;
+    padding-left: 972px;
+}
+
+.container-Resume{
+    background: #EFEFEF;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.container-Resume p{
+    margin-left: 972px;
+    font-size: 32px;
+    line-height: 48px;
+}
+.container-Vito{
+    border-bottom: 3px #AE0000 solid;
+    width: 636px;
+    margin-left: 312px;
+    margin-top: 80px;
+}
+h3{
+    font-size: 40px;
+    color: #AE0000;
+    line-height: 60px;
+}
+.list{
+    margin-left: 312px;
+    margin-top: 16px;
+}
+.list li{
+    font-size: 24px;
+    line-height: 38px;
+}
+.container-Info{
+    border-bottom: 3px #AE0000 solid;
+    width: 636px;
+    margin-left: 312px;
+    margin-top: 40px;
+}
+.education-Info{
+    margin-left: 312px;
+}
+.education-Info em{
+    font-size: 20px;
+    color: #949494;
+    font-style: italic;
+    line-height: 30px;
+    padding-top: 16px;
+}
+.education-Info p{
+    font-size: 24px;
+    line-height: 36px;
+}
+.awards-Info{
+    border-bottom: 3px #AE0000 solid;
+    width: 636px;
+    margin-left: 312px;
+    padding-top: 40px;
+}
+
+.awards-Container p{
+    margin-left: 312px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 16px;
+
+}
